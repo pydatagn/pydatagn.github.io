@@ -2439,11 +2439,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: #f9f9ff;
+
+  background-position: center;
+  background-size: cover !important;
+  opacity: 0.8;
 }
 
 .banner-area .fullscreen {
-  height: 750px !important;
+  height: 700px !important;
 }
 
 .banner-left h6 {
@@ -2475,12 +2478,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-right {
-  text-align: center;
+  text-align: right;
 }
 
 @media (max-width: 991px) {
   .banner-right {
-    align-self: center !important;
+    align-self: right !important;
   }
 }
 
@@ -2495,6 +2498,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- End Banner Area ------------*/
 /*-------- Start home-about Area ------------*/
+.home-about-left h1{
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.home-about-left p{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  max-width: 445px;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
 @media (max-width: 767px) {
   .home-about-right {
     margin-top: 30px;
@@ -2505,27 +2522,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
   text-transform: uppercase;
   font-weight: 400;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .home-about-right h1 {
   margin-bottom: 40px;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  align-content: center;
 }
 
 @media (max-width: 991px) {
   .home-about-right h1 {
     font-size: 20px;
+    
   }
 }
 
 .home-about-right p {
   margin-bottom: 30px;
   max-width: 445px;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .home-about-right .primary-btn:hover {
   box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
 }
-
 /*-------- End home-about Area ------------*/
 /*--------- Start Services Area -------------*/
 .single-services {
@@ -2900,6 +2922,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*--------- end price  Area -------------*/
 /*-------- start recent-blog Area -------------*/
+.recent-blog-area{
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.news-header{
+  
+}
+
 .recent-blog-area {
   background: #f9f9ff;
 }
@@ -2911,6 +2941,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: capitalize;
 }
 
+.single-recent-blog {
+  -webkit-box-shadow: 0 10px 10px -10px #000000;
+   -moz-box-shadow: 0 10px 10px -10px #000000;
+        box-shadow: 0 10px 10px -10px #000000;
+  padding: 20px;
+}
 .recent-blog-area p {
   margin-bottom: 45px;
   text-align: center;
@@ -2925,7 +2961,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-recent-blog h4 {
-  text-transform: uppercase;
   font-weight: 600;
   margin-top: 35px;
   -webkit-transition: all 0.3s ease 0s;
