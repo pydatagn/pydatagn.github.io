@@ -2926,9 +2926,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.news-header{
-  
-}
+
 
 .recent-blog-area {
   background: #f9f9ff;
@@ -2937,7 +2935,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .recent-blog-area h1 {
   text-align: center;
   margin-bottom: 25px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
 }
 
@@ -2945,7 +2943,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-box-shadow: 0 10px 10px -10px #000000;
    -moz-box-shadow: 0 10px 10px -10px #000000;
         box-shadow: 0 10px 10px -10px #000000;
-  padding: 20px;
+  padding: 2px;
 }
 .recent-blog-area p {
   margin-bottom: 45px;
@@ -2961,7 +2959,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-recent-blog h4 {
-  font-weight: 600;
+  padding: 10px;
+  text-align: left;
+  font-weight: 400;
   margin-top: 35px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2969,9 +2969,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s;
 }
 
-.single-recent-blog a {
-  color: #222;
-}
 
 .single-recent-blog .name {
   font-size: 13px;
