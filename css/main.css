@@ -3052,6 +3052,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50%;
 }
 
+.speaker-page{
+  height: 250px;
+  width: 150px;
+}
+
+.actions-contact{
+    font-size: 1.2em;
+    display: inline-flex;
+    list-style-type:none;
+}
+
+.icon-list{
+  display:inline-flex;
+}
+
+.icon-item{
+  padding: 10px;
+}
+
 
 .speaker-title{
   text-align: center;
