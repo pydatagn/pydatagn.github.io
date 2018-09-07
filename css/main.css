@@ -2731,6 +2731,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 1;
 }
 
+.thumb{
+  text-align: center;
+}
+
+
 .text {
   color: white;
   font-size: 25px;
@@ -3043,6 +3048,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: scale(1.05);
 }
 
+.img-speakers{
+  border-radius: 50%;
+}
+
+
+.speaker-title{
+  text-align: center;
+}
 /*-------- end recent-blog Area -------------*/
 /*--------- start brand Area -------------*/
 .brands-area {
