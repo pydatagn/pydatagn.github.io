@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Header = ({ siteTitle }) => (
+interface Props {
+  siteTitle: string;
+}
+
+const Header: React.SFC<Props> = ({ siteTitle }) => (
   <div
     style={{
       background: 'rebeccapurple',

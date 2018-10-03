@@ -1,12 +1,25 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import './layout.css'
 
-const Layout = ({ children }) => (
+interface Props {
+  children: React.ReactNode;
+}
+
+interface SiteMetadata {
+  title: string;
+}
+
+interface StaticQueryData {
+  site: {
+    siteMetadata: SiteMetadata;
+  }
+}
+
+const Layout: React.SFC<Props> = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -17,7 +30,8 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    /* tslint:disable jsx-no-lambda */
+    render={(data: StaticQueryData) => (
       <>
         <Helmet
           title={data.site.siteMetadata.title}
@@ -43,9 +57,5 @@ const Layout = ({ children }) => (
     )}
   />
 )
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
 
 export default Layout
