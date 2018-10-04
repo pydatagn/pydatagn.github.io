@@ -120,6 +120,11 @@
     background:$offwhite;
     .fullscreen {
         height: 750px !important;
+        .hero--text {
+            font-size:13vw;
+            padding-bottom: 30px;
+            color: white
+        }
     }
 }
 
