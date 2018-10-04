@@ -2448,6 +2448,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area .fullscreen {
   height: 700px !important;
 }
+.hero--text {
+  font-size:70px;
+  padding-bottom: 30px;
+  color: white
+}
+@media (max-width: 480px) {
+  .hero--text {
+    font-size: 44px;
+  }
+  .row {
+    justify-content: center;
+  }
+}
 
 .banner-left h6 {
   text-transform: uppercase;
