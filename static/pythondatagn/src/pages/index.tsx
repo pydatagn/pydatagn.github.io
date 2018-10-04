@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Focus from '../components/focus';
 import styled from 'styled-components';
-import breakpoint from 'styled-components-breakpoint';
+// import breakpoint from 'styled-components-breakpoint';
 
 const Margin = styled.div`
   margin: 0 auto;
