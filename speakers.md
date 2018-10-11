@@ -1,59 +1,12 @@
-<!---->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-  <title>PyData Gandhinagar</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="img/logo-shortcut.png">
-    <!-- Author Meta -->
-    <meta name="author" content="Jayakrishna Sahit">
-
-    <meta name="description" content="The Official PyData Chapter of Gandhinagar, Gujarat, India">
-    <!-- Meta Keyword -->
-    <meta name="keywords" content="Pydata, PyData-Gandhinagar, PyDatagn, PyDataGN">
-    <!-- meta character set -->
-    <meta charset="UTF-8">
-    <!-- Site Title -->
-  
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+---
+layout: default
+title: home
+permalink: /speakers.html
+---
+	
+	
 
 
-
-
-  <!--css files-->
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/speakers.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-</head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-
-<header id="header" >
-    <div class="container main-menu">
-        <div class="row align-items-center justify-content-between d-flex">
-            <nav id="nav-menu-container">
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="speakers.html">Speakers</a></li>
-                <li><a href="schedule.html">Schedule</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="#">Blog</a></li>					          					          		          
-            </ul>
-            </nav><!-- #nav-menu-container -->		    		
-        </div>
-    </div>
-</header><!-- #header -->
 
 <!-- Container (About Section) -->
 
@@ -200,92 +153,4 @@
 
 
 <!-- start footer Area -->
-<footer class="footer">
-        <div class="container bottom_border">
-            <div class="row">
-                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
-                    <h5 class="headin5_amrc col_white_amrc pt2">Contact us</h5>
-                <!--headin5_amrc-->
-                    <p class="mb10">Feel free to drop us an email or vist our Github Page.</p>
-                    <p><i class="fa fa-location-arrow"></i> IIT Gandhinagar, Palaj, Gujarat, India</p>
-                    <p><i class="fa fa fa-envelope"></i> pydatagn@gmail.com  </p>
-                </div>
-                <div class=" col-sm-4 col-md  col-6 col">
-                <!--footer_ul_amrc ends here-->
-                </div>
-                <div class=" col-sm-4 col-md  col-6 col">
-                    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
-                <!--headin5_amrc-->
-                    <ul class="footer_ul_amrc">
-                        <li><a href="https://www.python.org/psf/">Python Software Foundation</a></li>
-                        <li><a href="https://pydata.org/">Pydata Community</a></li>
-                    </ul>
-                <!--footer_ul_amrc ends here-->
-                </div>
-            
-            
-                <div class=" col-sm-4 col-md  col-12 col">
-                    
-                <!--footer_ul2_amrc ends here-->
-                </div>
-            </div>
-        </div>
-            
-        <br>	
-        <div class="container">
-            <!--foote_bottom_ul_amrc ends here-->
-            <p class="text-center">Copyright @2018 | Designed by <a href="#">PyData </a></p>
-            
-            <ul class="social_footer_ul">
-                <li><a href="https://www.facebook.com/PyData-Gandhinagar-1702472603208950/?ref=br_rs"><i class="fa fa-facebook-f"></i></a></li>
-                <li><a href="https://twitter.com/PyDataGN"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://www.meetup.com/PyData-Gandhinagar/events/254405791/"><i class="fa fa-meetup"></i></a></li>
-                <li><a href="https://github.com/pydatagn"><i class="fa fa-github"></i></a></li>
-            </ul>
-            <!--social_footer_ul ends here-->
-        </div>
-            
-    </footer>
-            
-            
-    <!-- End footer Area -->	
 
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-})
-</script>
-
-</body>
-</html>
