@@ -4402,7 +4402,7 @@ dl.accordion.time-line:before {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background-color: #04091e;
+  background-color:#14406c;
 }
 
 .single-footer-widget h4 {
@@ -4579,7 +4579,7 @@ dl.accordion.time-line:before {
 
 /*footer*/
 .col_white_amrc { color:#FFF;}
-footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;}
+footer { width:100%; background-color:#070000; min-height:250px; padding:10px 0px 25px 0px ;}
 .pt2 { padding-top:40px ; margin-bottom:20px ;}
 footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .mb10 { padding-bottom:15px ;}
@@ -4667,4 +4667,79 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 
 .navi-item{
   color: #000;
+}
+
+/* Blog posts on index page */
+
+.post-title a{
+  color: orange;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.post-title-sep{
+  
+}
+
+.post-author-sep{
+  color: black;
+}
+
+.post-date-sep{
+
+}
+
+.post-main{
+  margin-top: 80px;
+}
+
+/*============ End Blog Single Styles  =============*/
+/* =================================== */
+/*  Blog Index Page
+/* =================================== */
+
+.news-area-title{
+  padding: 40px;
+}
+
+.nopadding{
+  padding-right:0 !important ;
+  padding-left:0 !important;
+}
+
+.news-area-post{
+  font-family: 'Mallanna', sans-serif;
+  font-size: 17px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding: 20px;
+}
+
+.news-post-title{
+  font-family: 'Mallanna', sans-serif;
+  font-size: 25px;
+}
+
+.post-type1{
+  background-color: #FFBF00;
+}
+
+.post-type2{
+  background-color: rgb(142, 198, 250);
+}
+
+.post-type3{
+  background-color: #14406c;
+}
+
+.news-post-img{
+  width: 100%;
+}
+
+.updates-p{
+  font-family: 'Mallanna', sans-serif;
+  font-size: 17px;
+  padding: 10px;
 }

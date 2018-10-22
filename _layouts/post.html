@@ -2,18 +2,16 @@
 layout: default
 ---
 
-<div class="post">
-  
-</div>
 
+<div class="container post-main">
 <div class="row">
 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <span class="post-date">{{ page.date | date_to_string }}</span>
-    <h4 class="post-author">by <b>Jayakrishna Sahit</b></h4>
+    <h1 class="post-title-sep">{{ page.title }}</h1>
+    <span class="post-date-sep">{{ page.date | date_to_string }}</span>
+    <h4 class="post-author-sep">by {{ page.author }}</h4>
     <br><br><br>
     <!-- <hr class="style-seven"> -->
-  <div class="post-template-content">
+  <div class="post-template-content-sep">
   {{ content }}
   </div>
 
@@ -34,6 +32,7 @@ layout: default
     </div>
 
 
+</div>
 </div>
 </div>
 
